@@ -45,7 +45,24 @@
 #     print("invalid") 
 # print("End the program") 
 
-i=0
-for i in range(1,6) : 
-    
-    print(i)
+# Q.4 
+
+# n=int(input("enter any value = "))
+# x=y=n
+# digit=0
+# sum=0
+# while n>0: 
+#     digit=digit+1
+#     n=n//10
+# print(digit)
+# print(n)
+# while x>0: 
+#     last_digit=x%10
+#     sum=sum+last_digit**digit
+#     x=x//10
+# print(sum)
+# print(x)
+# if y==sum: 
+#     print(f'given no. {y} is armstrong no.')
+# else: 
+#     print(f'given no. {y} is not a armstrong no.')
