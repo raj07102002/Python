@@ -1,1 +1,1 @@
-i+=1
+print(a.count(2)) 
