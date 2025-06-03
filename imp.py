@@ -65,4 +65,16 @@
 # if y==sum: 
 #     print(f'given no. {y} is armstrong no.')
 # else: 
-#     print(f'given no. {y} is not a armstrong no.')
+#     print(f'given no. {y} is not a armstrong no.') 
+
+# Q.4 
+# def new(**n):
+#     print(n)
+#     print(type(n))
+#     for k,v in n.items():
+#         print(f'my key  is {k} and value is={v}')
+#     for k in n.keys():
+#         print(f'my key is={k}')
+#     for v in n.values():
+#         print(f'my value is={v}')
+# new(name="Raj",age=22,qulifi="b.tech")
