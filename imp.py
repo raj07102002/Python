@@ -77,4 +77,17 @@
 #         print(f'my key is={k}')
 #     for v in n.values():
 #         print(f'my value is={v}')
-# new(name="Raj",age=22,qulifi="b.tech")
+# new(name="Raj",age=22,qulifi="b.tech") 
+
+# Q .5 
+
+# n=int(input("Enter any value="))
+# i=0
+# while i<n: 
+#     print(" "*(n-i)+" *"*i)
+#     i=i+1
+# print(i)
+# i=i-2
+# while i>=0: 
+#     print(" "*(n-i)+" *"*i)
+#     i=i-1
