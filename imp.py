@@ -125,3 +125,26 @@
 #     print(f'given no. {y} is armstrong no.')
 # else: 
 #     print(f'given no. {y} is not a armstrong no.')
+
+# Q.8 
+
+# while True: 
+#     print("1.add\n2.sub\n3.mult\n4.div\n5off")
+#     n=int(input("Enter any option: "))
+#     x=(1,2,3,4,5)
+#     if n in x: 
+#         if n in (1,2,3,4): 
+#             a=int(input("Enter 1st value: "))
+#             b=int(input("Enter 2nd value: "))
+#         if n==1: 
+#             print("The answer is = ",a+b)
+#         elif n==2: 
+#             print("The answer is = ",a-b)
+#         elif n==3: 
+#             print("The answer is = ",a*b)
+#         elif n==4: 
+#             print("The answer is = ",a/b)
+#         elif n==5: 
+#             break
+#     else: 
+#         print("please enter valid option")
