@@ -1,1 +1,1 @@
-print(a.count(2)) 
+Q.3 

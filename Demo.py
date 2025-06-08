@@ -35,4 +35,12 @@
 #             print(self.n,self.c,self.p,self.school)
 # obj=Student('Raj','Seoni')
 # obj.school='MHSS'
-# obj.add(9098216203)
+# obj.add(9098216203) 
+
+# Q.3 
+Pen_count=10
+Pen_taken=0
+while(Pen_count>0):
+    Pen_taken=2
+    Pen_count=Pen_count-Pen_taken
+    print("number of pen taken in stand=",Pen_count)
