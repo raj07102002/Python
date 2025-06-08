@@ -43,4 +43,4 @@ Pen_taken=0
 while(Pen_count>0):
     Pen_taken=2
     Pen_count=Pen_count-Pen_taken
-    print("number of pen taken in stand=",Pen_count)
+print("number of pen taken in stand=",Pen_count)

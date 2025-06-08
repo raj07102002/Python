@@ -149,7 +149,7 @@
 #     else: 
 #         print("please enter valid option") 
 
-Q.9 oops 
+# Q.9 oops 
 # class Student :
 #         def __init__(self,name,city,phone):
 #             self.n=name
@@ -162,4 +162,10 @@ Q.9 oops
 # obj2=Student('shyam','Bhopal',9098216203)
 # print(obj.n,obj1.c,obj1.p)
 # print(obj1.n,obj1.c,obj1.p)
-# print(obj2.n,obj2.c,obj2.p)
+# print(obj2.n,obj2.c,obj2.p) 
+
+Q.10
+for i in range(2,10):
+    if(i%2!=0): 
+        
+        print(i)
