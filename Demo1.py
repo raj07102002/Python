@@ -56,4 +56,4 @@ obj=Student('Raj','Seoni')
 obj.school='MHSS'
 print(obj.n,obj.c,obj.p,obj.school)
 obj.add(9098216203)
-# print(obj.n,obj.c,obj.p,obj.school)
+# print(obj.n,obj.c,obj.p,obj.school) 
