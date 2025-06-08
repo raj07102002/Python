@@ -164,8 +164,8 @@
 # print(obj1.n,obj1.c,obj1.p)
 # print(obj2.n,obj2.c,obj2.p) 
 
-Q.10
+# Q.10
 for i in range(2,10):
     if(i%2!=0): 
-        
-        print(i)
+        break
+    print(i)
