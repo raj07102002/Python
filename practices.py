@@ -5,8 +5,15 @@
 
 # Q.1 
 
-l=['1','Raj','lakshman','janki','jai bolo hanuman ki']
-i=0
-while i<(len(l)): 
-    print(l[i])
-    i+=1
+# l=['1','Raj','lakshman','janki','jai bolo hanuman ki']
+# i=0
+# while i<(len(l)): 
+#     print(l[i])
+#     i+=1 
+
+# Q.2 
+l=[1,23,54,45]
+for item in l:
+    print(item)
+else: 
+    print("done")
