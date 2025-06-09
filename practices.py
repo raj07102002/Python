@@ -12,8 +12,14 @@
 #     i+=1 
 
 # Q.2 
-l=[1,23,54,45]
-for item in l:
-    print(item)
-else: 
-    print("done")
+# l=[1,23,54,45]
+# for item in l:
+#     print(item)
+# else: 
+#     print("done")
+
+# Q.3 
+# for i in range(0, 50):
+#     if i < 34:
+#         continue
+#     print(i)
