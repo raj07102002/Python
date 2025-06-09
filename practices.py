@@ -22,4 +22,10 @@
 # for i in range(0, 50):
 #     if i < 34:
 #         continue
-#     print(i)
+#     print(i) 
+
+# Q.4  
+l=["Rahul","Ram","sita","shiva"] 
+for name in l: 
+    if(name.startswith("R")):
+        print(f"Hey{name}")
