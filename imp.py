@@ -179,4 +179,15 @@ def natural_no(n):
             sum+=i
     print(sum)
 x=int(input("Enter any value = "))
-natural_no(x)
+natural_no(x) 
+
+# Q.11 
+
+from functools import reduce
+l=[1,2,3,4,5]
+l1=[5,4,3,2,1] 
+def add_no(n,m):
+    return n+m
+x=map(add_no,l1,l)
+print(x)
+print(list(x))
