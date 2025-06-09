@@ -168,4 +168,15 @@
 for i in range(2,10):
     if(i%2!=0): 
         break
-    print(i)
+    print(i)  
+
+# Q.10  
+
+def natural_no(n): 
+    sum=0
+    for i in range(1,n+1): 
+        if i%2==0: 
+            sum+=i
+    print(sum)
+x=int(input("Enter any value = "))
+natural_no(x)
