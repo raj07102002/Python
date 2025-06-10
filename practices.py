@@ -25,7 +25,22 @@
 #     print(i) 
 
 # Q.4  
-l=["Rahul","Ram","sita","shiva"] 
-for name in l: 
-    if(name.startswith("R")):
-        print(f"Hey{name}")
+# l=["Rahul","Ram","sita","shiva"] 
+# for name in l: 
+#     if(name.startswith("R")):
+#         print(f"Hey{name}") 
+
+Q.5 
+
+class Student:
+        def __init__(self,name,city):
+            self.n=name
+            self.c=city
+            print(self.n,self.c) # Access in-side constructor   
+        def add(self,phone):
+            self.p=phone
+            print(self.n,self.c,self.p,self.school)
+obj=Student('Raj','Seoni')
+obj.school='MHSS'
+obj.add(9098216203)
+# print(obj.n,obj.c,obj.p,obj.school)
