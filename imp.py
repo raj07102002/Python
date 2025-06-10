@@ -170,7 +170,7 @@ for i in range(2,10):
         break
     print(i)  
 
-# Q.10  
+
 
 def natural_no(n): 
     sum=0

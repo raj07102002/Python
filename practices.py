@@ -60,7 +60,7 @@
 # # obj.add(9098216203)
 # print(obj.n,obj.c,obj.p,obj.school) 
 
-Q.7 
+# Q.7 
 # class Student:
 #         def __init__(self,name,city):
 #             self.n=name
