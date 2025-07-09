@@ -84,4 +84,21 @@
 # s1.display()
 
 # r = Rectangle(10, 5)
-# print("Area of rectangle:", r.area())
+# print("Area of rectangle:", r.area()) 
+
+# Q.5 
+
+# class Account:
+#     def __init__(self, owner, balance):
+#         self.owner = owner
+#         self.__balance = balance  # Private attribute
+
+#     def deposit(self, amount):
+#         self.__balance += amount
+
+#     def get_balance(self):
+#         return self.__balance
+
+# acc = Account("Raj", 1000)
+# acc.deposit(500)
+# print(acc.get_balance())
