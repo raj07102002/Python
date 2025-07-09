@@ -57,3 +57,31 @@
 # # 3. Polymorphism: method overriding
 #     def display(self):
 #         print(f"Student: {self.name}, ID: {self.student_id
+
+# Q.4 
+
+# # . Abstraction using Abstract Base Class
+# from abc import ABC, abstractmethod
+
+# class Shape(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+
+# class Rectangle(Shape):
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+
+#     def area(self):
+#         return self.length * self.width
+
+# # ---- Using the classes ----
+# p1 = Person("John", 30)
+# p1.display()
+
+# s1 = Student("Alice", 20, "S123")
+# s1.display()
+
+# r = Rectangle(10, 5)
+# print("Area of rectangle:", r.area())
