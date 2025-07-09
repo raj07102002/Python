@@ -118,4 +118,21 @@
 #     print(animal.speak())
 
 # animal_sound(Cat())  # Output: Meow
-# animal_sound(Dog())  # Output: Woof
+# animal_sound(Dog())  # Output: Woof 
+
+# Q.7 
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def speak(self):
+#         return "Makes a sound"
+
+# # Derived Class
+# class Dog(Animal):
+#     def speak(self):
+#         return f"{self.name} says Woof"
+
+# dog = Dog("Tommy")
+# print(dog.speak())  # Output: Tommy says Woof
