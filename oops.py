@@ -26,20 +26,28 @@
 # # obj.home()
 # # obj.car() 
 
-Q.1 
+# Q.1 
 
-class Person:
-    # Constructor (Encapsulation)
-    def __init__(self, name, age):
-        self.name = name
-        self.__age = age  # private attribute
+# class Person:
+#     # Constructor (Encapsulation)
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.__age = age  # private attribute
 
-    def display(self):  # Method
-        print(f"Name: {self.name}, Age: {self.__age}")
+#     def display(self):  # Method
+#         print(f"Name: {self.name}, Age: {self.__age}")
 
-    def get_age(self):  # Encapsulation
-        return self.__age
+#     def get_age(self):  # Encapsulation
+#         return self.__age
 
-    def set_age(self, age):  # Setter with validation
-        if age > 0:
-            self.__age = age
+#     def set_age(self, age):  # Setter with validation
+#         if age > 0:
+#             self.__age = age 
+
+# Q.2 
+
+# # . Inheritance
+# class Student(Person):
+#     def __init__(self, name, age, student_id):
+#         super().__init__(name, age)  # Call parent constructor
+#         self.student_id = student_id
