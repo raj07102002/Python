@@ -101,4 +101,21 @@
 
 # acc = Account("Raj", 1000)
 # acc.deposit(500)
-# print(acc.get_balance())
+# print(acc.get_balance()) 
+
+# Q.6 
+
+# class Cat:
+#     def speak(self):
+#         return "Meow"
+
+# class Dog:
+#     def speak(self):
+#         return "Woof"
+
+# # Same interface
+# def animal_sound(animal):
+#     print(animal.speak())
+
+# animal_sound(Cat())  # Output: Meow
+# animal_sound(Dog())  # Output: Woof
