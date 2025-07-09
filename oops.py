@@ -50,4 +50,10 @@
 # class Student(Person):
 #     def __init__(self, name, age, student_id):
 #         super().__init__(name, age)  # Call parent constructor
-#         self.student_id = student_id
+#         self.student_id = student_id 
+
+# Q.3 
+
+# # 3. Polymorphism: method overriding
+#     def display(self):
+#         print(f"Student: {self.name}, ID: {self.student_id
