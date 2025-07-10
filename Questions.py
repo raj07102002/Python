@@ -27,4 +27,31 @@
 #             print("Not Prime")
 #             break
 #     else:
-#         print("Prime")
+#         print("Prime") 
+
+# Q.4 
+
+# class Dog:
+#     def speak(self):
+#         return "Dog says Woof"
+
+# class Cat:
+#     def speak(self):
+#         return "Cat says Meow"
+
+# class Cow:
+#     def speak(self):
+#         return "Cow says Moo"
+
+# # Common interface
+# def animal_sound(animal):
+#     print(animal.speak())
+
+# # Call with different objects
+# dog = Dog()
+# cat = Cat()
+# cow = Cow()
+
+# animal_sound(dog)   # Output: Dog says Woof
+# animal_sound(cat)   # Output: Cat says Meow
+# animal_sound(cow)   # Output: Cow says Moo
