@@ -55,3 +55,16 @@
 # animal_sound(dog)   # Output: Dog says Woof
 # animal_sound(cat)   # Output: Cat says Meow
 # animal_sound(cow)   # Output: Cow says Moo
+
+# Q.5 
+
+# n = 5
+# if n < 2:
+#     print("Not Prime")
+# else:
+#     for i in range(2, n):
+#         if n % i == 0:
+#             print("Not Prime")
+#             break
+#     else:
+#         print("Prime")  # Output: Prime
