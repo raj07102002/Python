@@ -87,4 +87,14 @@
 #     digit = n % 10
 #     total += digit
 #     n = n // 10
-# print(total)
+# print(total) 
+
+# Q.8 
+
+# s = "apple"
+# vowels = "aeiou"
+# count = 0
+# for char in s:
+#     if char in vowels:
+#         count += 1
+# print(count) 
