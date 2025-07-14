@@ -97,4 +97,25 @@
 # for char in s:
 #     if char in vowels:
 #         count += 1
-# print(count) 
+# print(count)  
+
+Q.9 
+
+# class Car:
+#     # Constructor
+#     def __init__(self, brand, model):
+#         self.brand = brand
+#         self.model = model
+
+#     # Method
+#     def show_details(self):
+#         print("Brand:", self.brand)
+#         print("Model:", self.model)
+
+# # Create Object
+# car1 = Car("Toyota", "Innova")
+# car2 = Car("Tata", "Punch")
+
+# # Call method
+# car1.show_details()
+# car2.show_details()
