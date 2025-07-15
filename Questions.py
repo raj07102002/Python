@@ -99,7 +99,7 @@
 #         count += 1
 # print(count)  
 
-Q.9 
+# Q.9 
 
 # class Car:
 #     # Constructor
@@ -118,4 +118,28 @@ Q.9
 
 # # Call method
 # car1.show_details()
-# car2.show_details()
+# car2.show_details() 
+
+# Q.10 
+
+# class Vehicle:
+#     def __init__(self, type):
+#         self.type = type
+
+#     def show_type(self):
+#         print("Type:", self.type)
+
+# # Car inherits from Vehicle
+# class Car(Vehicle):
+#     def __init__(self, brand, model):
+#         super().__init__("Car")
+#         self.brand = brand
+#         self.model = model
+
+#     def show_details(self):
+#         print("Brand:", self.brand)
+#         print("Model:", self.model)
+
+# c = Car("Honda", "City")
+# c.show_type()
+# c.show_details()
