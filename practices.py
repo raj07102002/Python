@@ -74,4 +74,5 @@
 # obj.add(9098216203)
 # obj.school='MHSS'
 # obj.add(9098216203)
-# # print(obj.n,obj.c,obj.p,obj.school)
+# # print(obj.n,obj.c,obj.p,obj.school) 
+
