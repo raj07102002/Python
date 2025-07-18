@@ -20,14 +20,25 @@
 #     if (not(result)):
 #         print("fail") 
 
-Q.3 
-def new(**n):
-    print(n)
-    print(type(n))
-    for k,v in n.items():
-        print(f'my key  is {k} and value is={v}')
-    for k in n.keys():
-        print(f'my key is={k}')
-    for v in n.values():
-        print(f'my value is={v}')
-new(name="Raj",age=22,qulifi="b.tech")
+# Q.3 
+# def new(**n):
+#     print(n)
+#     print(type(n))
+#     for k,v in n.items():
+#         print(f'my key  is {k} and value is={v}')
+#     for k in n.keys():
+#         print(f'my key is={k}')
+#     for v in n.values():
+#         print(f'my value is={v}')
+# new(name="Raj",age=22,qulifi="b.tech") 
+
+# Q.4 
+
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+#          num_map = {}
+#          for i, num in enumerate(nums):
+#             diff = target - num
+#             if diff in num_map:
+#                 return [num_map[diff], i]
+#             num_map[num] = i
