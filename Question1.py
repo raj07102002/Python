@@ -21,4 +21,14 @@
 # # Print the contents
 # print(f"Contents of '{directory_path}':")
 # for item in contents:
-#     print(item)
+#     print(item) 
+
+# Q.3 
+# a="12.4" 
+# b=int(float(a))
+# print(type(b))  
+# class type(int)
+# a="12"
+# b=int(a)
+# print(type(b)) 
+# class type(int)
