@@ -142,4 +142,5 @@
 
 # c = Car("Honda", "City")
 # c.show_type()
-# c.show_details()
+# c.show_details()  
+
