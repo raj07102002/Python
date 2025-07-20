@@ -31,4 +31,17 @@
 # a="12"
 # b=int(a)
 # print(type(b)) 
-# class type(int)
+# class type(int) 
+
+# Q.4 
+
+# a = "12.4"
+
+# try:
+#     b = int(a)
+# except ValueError:
+#     print(f"'{a}' is not a valid integer directly!")
+
+# # Now convert safely
+# b = int(float(a))
+# print("Converted:", b)
