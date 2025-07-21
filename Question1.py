@@ -44,4 +44,15 @@
 
 # # Now convert safely
 # b = int(float(a))
-# print("Converted:", b)
+# print("Converted:", b) 
+
+# Q.5 
+# class Student:
+#     def __init__(self, name):
+#         self.__name = name  # Private variable
+
+#     def get_name(self):
+#         return self.__name
+
+# s = Student("Raj")
+# print(s.get_name())
