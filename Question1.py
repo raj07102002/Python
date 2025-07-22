@@ -56,3 +56,21 @@
 
 # s = Student("Raj")
 # print(s.get_name())
+
+# Q.6 
+
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
+
+# class Dog(Animal):
+#     def speak(self):
+#         print("Dog barks")
+
+# class Cat(Animal):
+#     def speak(self):
+#         print("Cat meows")
+
+# # Polymorphism in action
+# for animal in [Dog(), Cat(), Animal()]:
+#     animal.speak()
