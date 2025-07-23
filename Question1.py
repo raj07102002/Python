@@ -73,4 +73,17 @@
 
 # # Polymorphism in action
 # for animal in [Dog(), Cat(), Animal()]:
-#     animal.speak()
+#     animal.speak() 
+
+# Q.7 
+
+# class student: 
+#     def __init__(self, name, grade): 
+#         self.name = name 
+#         self.grade = grade
+
+#     def get_grade(self):  # ✅ Fix: no double underscore
+#         return f'{self.name} is in grade {self.grade}'
+
+# student1 = student("raj", 1)
+# print(student1.get_grade())  # ✅ Works fine
