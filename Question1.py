@@ -86,4 +86,15 @@
 #         return f'{self.name} is in grade {self.grade}'
 
 # student1 = student("raj", 1)
-# print(student1.get_grade())  # ✅ Works fine
+# print(student1.get_grade())  # ✅ Works fine 
+
+# Q.8
+
+# class Student:
+#     def __init__(self, name, city, phone):
+#         self.n = name
+#         self.c = city
+#         self.p = phone
+
+# obj = Student("raj", "bhopal", 9098216203)  # ✅ fixed here
+# print(obj.n, obj.c, obj.p)
